@@ -77,10 +77,11 @@ export default async function HomePage() {
             alt=""
             fill
             priority
-            className="object-cover object-[center_30%] opacity-40 md:object-center"
+            className="object-cover object-[center_30%] opacity-75 md:object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-cream/65" />
+          <div className="absolute inset-0 bg-navy/30" />
+          <div className="absolute inset-0 bg-cream/15" />
         </div>
         <div className="pointer-events-none absolute -left-20 top-10 h-64 w-64 rounded-full bg-navy/5 blur-3xl" />
         <div className="pointer-events-none absolute -right-16 bottom-0 h-72 w-72 rounded-full bg-navy/5 blur-3xl" />
